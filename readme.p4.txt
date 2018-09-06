@@ -1,3 +1,3 @@
 Name: Xiaoying Yang
-gt username: xyang383
-gt email: xyang383@gatech.edu
+GT Username: xyang383
+Email: xyang383@gatech.edu
