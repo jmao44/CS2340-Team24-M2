@@ -30,7 +30,10 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
+      for (int i = 1; i < input.length(); i++) {
+        String newName = "";
+        char newChar = input.charAt(i) + 1;
+        newName = newName + newChar;
       return null;
     }
     
