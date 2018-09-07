@@ -42,7 +42,16 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+      //Person 3 put your implementation here
+        ArrayList<Character> list = new ArrayList<Character>();
+        ArrayList<Character> newlist = new ArrayList<Character>();
+        for (char c: input.toCharArray()) {
+            list.add(c);
+        }
+        Collections.reverse(list);
+        // for (int i = list.size() -1 ; i >= 0; i--) {
+        //     newlist.add(list[i]);
+        // }
+        return list.toString();
 	}
 }
