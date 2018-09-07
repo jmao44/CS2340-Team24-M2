@@ -43,6 +43,12 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+        ArrayList<Character> list = new ArrayList<Character>();
+        ArrayList<Character> newlist = new ArrayList<Character>();
+        for (char c: input.toCharArray()) {
+            list.add(c);
+        }
+        Collections.reverse(list);
+        return list.toString();
 	}
 }
