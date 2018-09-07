@@ -12,7 +12,7 @@ jar {
     manifest {
         attributes (
             "Implementation-Title": "CS2340 Team 24 M2",
-            "Main-Class": "edu.gatech.oad.antlab.pgk1.AntLabMain",
+            "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain",
             "Class-Path": "lib/resources.jar")
     }
 }
