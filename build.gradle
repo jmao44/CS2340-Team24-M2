@@ -12,11 +12,19 @@ jar {
     manifest {
         attributes (
             "Implementation-Title": "CS2340 Team 24 M2",
+<<<<<<< HEAD
             "Main-Class": "edu.gatech.oad.antlab.pgk1.AntLabMain",
+=======
+            "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain",
+>>>>>>> 2cc23e1f15ecaa130d586cad5280113c91f5d580
             "Class-Path": "lib/resources.jar")
     }
 }
 
 dependencies {
     compile files("lib/resources.jar")
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2cc23e1f15ecaa130d586cad5280113c91f5d580
